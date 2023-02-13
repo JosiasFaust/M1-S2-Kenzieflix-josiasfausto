@@ -1,0 +1,106 @@
+body{
+    background-color: black;
+    opacity: 0.65;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+.title{
+    font-family: 'Inter', sans-serif;
+    color: white ;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.title:hover{
+    font-weight: 100;
+}
+
+.cards{
+    display: flex;
+    color:white;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    width: 700px;
+    margin: 0 auto;
+    font-size: larger;
+}
+
+.box-avatar{
+    width: 160px;
+    text-align: center;
+}
+
+.avatar{
+    overflow: hidden;
+    border: 3px solid transparent;
+    border-radius: 10px;
+}
+
+.cards li:hover .avatar{
+    border: 3px solid white;
+    color: white;
+    filter: brightness(1.8);
+    filter:contrast(1.4);
+    filter: saturate(1.1);
+}
+
+.cards li:hover p{
+    border: 0px solid;
+    color: white;
+    font-weight: 100;
+}
+
+
+.avatarplus{
+    background-color: rgb(44, 44, 44);
+    padding: 47px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.cards li:hover .avatarplus{
+    border: 3px solid white;
+    color: white;
+    opacity: 1;
+}
+
+
+.box-button{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border: 2px solid transparent;
+}
+
+
+.button{
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    margin-top: 100px;
+    background: black;
+    color: white;
+    border: solid;
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+    transition: linear;
+}
+
+.button:hover{
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    filter: brightness(0.8);
+    filter:contrast(1.0);
+    font-weight:bold;
+}
